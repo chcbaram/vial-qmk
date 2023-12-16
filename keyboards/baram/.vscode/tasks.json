@@ -6,12 +6,12 @@
     {
       "label": "compile",
       "type": "shell",
-      "command": "qmk compile -kb baram/45k -km default -j 20"
+      "command": "make baram/45k:vial -j20"
     },
     {
       "label": "flash",
       "type": "shell",
-      "command": "qmk flash -kb baram/45k -km default "
+      "command": "make baram/45k:vial:flash -j20"
     }    
   ]
 }
