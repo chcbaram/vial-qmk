@@ -13,6 +13,11 @@
         "cols": ["B11", "B10", "B2", "B1", "B0", "A4", "C14", "B6", "B5", "B4", "B3", "A15"],
         "rows": ["A5", "A7", "A3", "B7"]
     },
+
+    "modules": [
+      "srwi/keypeek_layer_notify"
+    ],
+        
     "features": {
         "bootmagic": true,
         "command": false,
